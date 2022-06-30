@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:10:50:46 +0100] "GET /produit HTTP/1.1" 302 - http-bio-6060-exec-1 0
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:10:50:47 +0100] "GET /produit/ HTTP/1.1" 500 23499 http-bio-6060-exec-3 817
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:10:50:47 +0100] "GET /favicon.ico HTTP/1.1" 404 - http-bio-6060-exec-2 0
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:10:52:49 +0100] "GET /produit/ HTTP/1.1" 500 23499 http-bio-6060-exec-1 892
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:10:55:37 +0100] "GET /produit/ HTTP/1.1" 500 24645 http-bio-6060-exec-1 3757
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:10:57:22 +0100] "GET /produit/ HTTP/1.1" 500 24645 http-bio-6060-exec-1 3845
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:10:59:22 +0100] "GET /produit/ HTTP/1.1" 500 24644 http-bio-6060-exec-1 3993
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:11:02:23 +0100] "GET /produit/ HTTP/1.1" 500 24645 http-bio-6060-exec-1 3666
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:11:10:19 +0100] "GET /produit/ HTTP/1.1" 500 24645 http-bio-6060-exec-3 119
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:11:11:20 +0100] "GET /produit/ HTTP/1.1" 500 24127 http-bio-6060-exec-1 3858
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:11:12:42 +0100] "GET /produit/ HTTP/1.1" 500 24127 http-bio-6060-exec-1 3837
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:11:14:45 +0100] "GET /produit/ HTTP/1.1" 500 18199 http-bio-6060-exec-1 3822
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:11:18:09 +0100] "GET /produit/ HTTP/1.1" 200 730 http-bio-6060-exec-1 3662
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:11:18:09 +0100] "GET /produit/faces/javax.faces.resource/theme.css?ln=primefaces-aristo HTTP/1.1" 200 24202 http-bio-6060-exec-3 94

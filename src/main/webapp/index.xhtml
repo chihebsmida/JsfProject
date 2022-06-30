@@ -9,7 +9,34 @@
 	<title>JSF Project</title>
 </h:head>
 <h:body>
-	<h2>welcome to jsf project : gestion des produits </h2>
+
+	<h2><h:outputText value="Product List"></h:outputText> </h2>
+
+	<h:dataTable border="1" value="#{produitService.allProduct}" var="p">
+
+		<h:column>
+			<f:facet name="header">ID</f:facet>
+			<h:outputText value="#{p.id}"/>
+		</h:column>
+		<h:column>
+			<f:facet name="header">Reference</f:facet>
+			<h:outputText value="#{p.reference}"/>
+		</h:column>
+		<h:column>
+			<f:facet name="header">Designation</f:facet>
+			<h:outputText value="#{p.designation}"/>
+		</h:column>
+		<h:column>
+			<f:facet name="header">Prix</f:facet>
+			<h:outputText value="#{p.prix}"/>
+		</h:column>
+		<h:column>
+			<f:facet name="header">Quantité</f:facet>
+			<h:outputText value="#{p.quantité}"/>
+		</h:column>
+
+	</h:dataTable>
+
 </h:body>
 
 </html>
