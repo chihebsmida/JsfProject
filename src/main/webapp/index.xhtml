@@ -12,7 +12,8 @@
 <h:body>
 
 	<h2><h:outputText value="Product List"></h:outputText> </h2>
-
+<h:form>
+	<h:commandButton action="#{produitService.redirectToAddProduct}" value="Ajouter Produit"></h:commandButton>
 	<h:dataTable border="1" value="#{produitService.allProduct}" var="p">
 
 		<h:column>
@@ -37,6 +38,7 @@
 		</h:column>
 
 	</h:dataTable>
+</h:form>
 
 </h:body>
 
