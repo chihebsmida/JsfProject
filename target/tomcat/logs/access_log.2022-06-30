@@ -12,3 +12,14 @@
 0:0:0:0:0:0:0:1 - - [30/Jun/2022:11:14:45 +0100] "GET /produit/ HTTP/1.1" 500 18199 http-bio-6060-exec-1 3822
 0:0:0:0:0:0:0:1 - - [30/Jun/2022:11:18:09 +0100] "GET /produit/ HTTP/1.1" 200 730 http-bio-6060-exec-1 3662
 0:0:0:0:0:0:0:1 - - [30/Jun/2022:11:18:09 +0100] "GET /produit/faces/javax.faces.resource/theme.css?ln=primefaces-aristo HTTP/1.1" 200 24202 http-bio-6060-exec-3 94
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:11:38:23 +0100] "GET /produit/ HTTP/1.1" 200 730 http-bio-6060-exec-5 73
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:11:38:23 +0100] "GET /produit/faces/javax.faces.resource/theme.css?ln=primefaces-aristo HTTP/1.1" 304 - http-bio-6060-exec-7 34
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:11:56:53 +0100] "GET /produit/ HTTP/1.1" 200 730 http-bio-6060-exec-1 7476
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:11:56:53 +0100] "GET /produit/faces/javax.faces.resource/theme.css?ln=primefaces-aristo HTTP/1.1" 304 - http-bio-6060-exec-3 35
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:12:05:52 +0100] "GET /produit/ HTTP/1.1" 200 730 http-bio-6060-exec-5 1081
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:12:05:52 +0100] "GET /produit/faces/javax.faces.resource/theme.css?ln=primefaces-aristo HTTP/1.1" 304 - http-bio-6060-exec-7 19
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:12:14:25 +0100] "GET /produit/ HTTP/1.1" 500 30375 http-bio-6060-exec-1 4032
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:12:15:53 +0100] "GET /produit/ HTTP/1.1" 200 730 http-bio-6060-exec-1 7443
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:12:15:53 +0100] "GET /produit/faces/javax.faces.resource/theme.css?ln=primefaces-aristo HTTP/1.1" 304 - http-bio-6060-exec-3 17
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:12:18:22 +0100] "GET /produit/ HTTP/1.1" 200 730 http-bio-6060-exec-1 14435
+0:0:0:0:0:0:0:1 - - [30/Jun/2022:12:18:22 +0100] "GET /produit/faces/javax.faces.resource/theme.css?ln=primefaces-aristo HTTP/1.1" 304 - http-bio-6060-exec-3 39

@@ -24,7 +24,6 @@ public class ProduitService implements ProduitServiceInterface
     @Override
     public List<Produit> getAllProduct()
     {
-        System.out.println("entitymanager=="+entityManager.getProperties());
         return entityManager.createQuery("select p FROM Produit p ").getResultList();
     }
 }

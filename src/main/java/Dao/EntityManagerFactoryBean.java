@@ -8,7 +8,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-@ManagedBean
+@ManagedBean()
 @ApplicationScoped
 public class EntityManagerFactoryBean
 {
@@ -19,7 +19,8 @@ public class EntityManagerFactoryBean
        this.entityManagerFactory= Persistence.createEntityManagerFactory("PERSISTENCE");
    }
 
-    public EntityManagerFactory getEntityManagerFactory() {
+    public EntityManagerFactory getEntityManagerFactory()
+    {
         return entityManagerFactory;
     }
 
