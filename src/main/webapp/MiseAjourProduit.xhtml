@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head></h:head>
+<h:body>
+
+    <h:form>
+        <h:panelGrid columns="2" cellspacing="20" border="1">
+        <f:facet name="header">
+        <h:outputText value="Metre Ajour Produit"></h:outputText>
+        </f:facet>
+            <h:outputText value="Reference"></h:outputText>
+            <h:inputText value="#{editPr.reference}"></h:inputText>
+
+            <h:outputText value="Designation"></h:outputText>
+            <h:inputText value="#{editPr.designation}"></h:inputText>
+
+            <h:outputText value="Prix"></h:outputText>
+            <h:inputText value="#{editPr.prix}"></h:inputText>
+
+            <h:outputText value="Quantité"></h:outputText>
+            <h:inputText value="#{editPr.quantité}"></h:inputText>
+
+<f:facet name="footer">
+    <h:commandButton action="#{produitService.UpdateProduct(editPr)}" value="Update Info"></h:commandButton>
+</f:facet>
+
+        </h:panelGrid>
+    </h:form>
+</h:body>
+</html>

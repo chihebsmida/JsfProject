@@ -45,4 +45,30 @@ public class ProduitService implements ProduitServiceInterface
         entityManager.getTransaction().commit();
         return "/faces/index.xhtml";
     }
+
+    @Override
+    public String redirectToEditProduct(Produit produit) {
+
+        Map<String,Object> sessionMap= FacesContext.getCurrentInstance().getExternalContext().getSessionMap();
+        sessionMap.put("editPr",produit);
+        return "/faces/MiseAjourProduit.xhtml";
+
+    }
+
+    @Override
+    public String UpdateProduct(Produit p)
+    {
+        entityManager.getTransaction().begin();
+        entityManager.merge(p);
+        entityManager.getTransaction().commit();
+        return "/faces/index.xhtml";
+    }
+
+    @Override
+    public String supprimerProduct(Produit p) {
+        entityManager.getTransaction().begin();
+        entityManager.remove(p);
+        entityManager.getTransaction().commit();
+        return "/faces/index.xhtml";
+    }
 }
